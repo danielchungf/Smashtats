@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70DE2E682C6D4F5B00C23C95 /* SmashtatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DE2E672C6D4F5B00C23C95 /* SmashtatsApp.swift */; };
+		70DE2E6A2C6D4F5B00C23C95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DE2E692C6D4F5B00C23C95 /* ContentView.swift */; };
+		70DE2E6C2C6D4F5D00C23C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DE2E6B2C6D4F5D00C23C95 /* Assets.xcassets */; };
+		70DE2E6F2C6D4F5D00C23C95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DE2E6E2C6D4F5D00C23C95 /* Preview Assets.xcassets */; };
+		70DE2E712C6D4F5D00C23C95 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DE2E702C6D4F5D00C23C95 /* Persistence.swift */; };
+		70DE2E742C6D4F5D00C23C95 /* Smashtats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70DE2E722C6D4F5D00C23C95 /* Smashtats.xcdatamodeld */; };
+		70DE2E7E2C6D4F5E00C23C95 /* SmashtatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DE2E7D2C6D4F5E00C23C95 /* SmashtatsTests.swift */; };
+		70DE2E882C6D4F5E00C23C95 /* SmashtatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DE2E872C6D4F5E00C23C95 /* SmashtatsUITests.swift */; };
+		70DE2E8A2C6D4F5E00C23C95 /* SmashtatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DE2E892C6D4F5E00C23C95 /* SmashtatsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70DE2E7A2C6D4F5E00C23C95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70DE2E5C2C6D4F5B00C23C95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70DE2E632C6D4F5B00C23C95;
+			remoteInfo = Smashtats;
+		};
+		70DE2E842C6D4F5E00C23C95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70DE2E5C2C6D4F5B00C23C95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70DE2E632C6D4F5B00C23C95;
+			remoteInfo = Smashtats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70DE2E642C6D4F5B00C23C95 /* Smashtats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smashtats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DE2E672C6D4F5B00C23C95 /* SmashtatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashtatsApp.swift; sourceTree = "<group>"; };
+		70DE2E692C6D4F5B00C23C95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		70DE2E6B2C6D4F5D00C23C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70DE2E6E2C6D4F5D00C23C95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		70DE2E702C6D4F5D00C23C95 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		70DE2E732C6D4F5D00C23C95 /* Smashtats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smashtats.xcdatamodel; sourceTree = "<group>"; };
+		70DE2E792C6D4F5E00C23C95 /* SmashtatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashtatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DE2E7D2C6D4F5E00C23C95 /* SmashtatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashtatsTests.swift; sourceTree = "<group>"; };
+		70DE2E832C6D4F5E00C23C95 /* SmashtatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashtatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DE2E872C6D4F5E00C23C95 /* SmashtatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashtatsUITests.swift; sourceTree = "<group>"; };
+		70DE2E892C6D4F5E00C23C95 /* SmashtatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashtatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70DE2E612C6D4F5B00C23C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DE2E762C6D4F5E00C23C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DE2E802C6D4F5E00C23C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70DE2E5B2C6D4F5B00C23C95 = {
+			isa = PBXGroup;
+			children = (
+				70DE2E662C6D4F5B00C23C95 /* Smashtats */,
+				70DE2E7C2C6D4F5E00C23C95 /* SmashtatsTests */,
+				70DE2E862C6D4F5E00C23C95 /* SmashtatsUITests */,
+				70DE2E652C6D4F5B00C23C95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70DE2E652C6D4F5B00C23C95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70DE2E642C6D4F5B00C23C95 /* Smashtats.app */,
+				70DE2E792C6D4F5E00C23C95 /* SmashtatsTests.xctest */,
+				70DE2E832C6D4F5E00C23C95 /* SmashtatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70DE2E662C6D4F5B00C23C95 /* Smashtats */ = {
+			isa = PBXGroup;
+			children = (
+				70DE2E672C6D4F5B00C23C95 /* SmashtatsApp.swift */,
+				70DE2E692C6D4F5B00C23C95 /* ContentView.swift */,
+				70DE2E6B2C6D4F5D00C23C95 /* Assets.xcassets */,
+				70DE2E702C6D4F5D00C23C95 /* Persistence.swift */,
+				70DE2E722C6D4F5D00C23C95 /* Smashtats.xcdatamodeld */,
+				70DE2E6D2C6D4F5D00C23C95 /* Preview Content */,
+			);
+			path = Smashtats;
+			sourceTree = "<group>";
+		};
+		70DE2E6D2C6D4F5D00C23C95 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				70DE2E6E2C6D4F5D00C23C95 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		70DE2E7C2C6D4F5E00C23C95 /* SmashtatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				70DE2E7D2C6D4F5E00C23C95 /* SmashtatsTests.swift */,
+			);
+			path = SmashtatsTests;
+			sourceTree = "<group>";
+		};
+		70DE2E862C6D4F5E00C23C95 /* SmashtatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70DE2E872C6D4F5E00C23C95 /* SmashtatsUITests.swift */,
+				70DE2E892C6D4F5E00C23C95 /* SmashtatsUITestsLaunchTests.swift */,
+			);
+			path = SmashtatsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70DE2E632C6D4F5B00C23C95 /* Smashtats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DE2E8D2C6D4F5E00C23C95 /* Build configuration list for PBXNativeTarget "Smashtats" */;
+			buildPhases = (
+				70DE2E602C6D4F5B00C23C95 /* Sources */,
+				70DE2E612C6D4F5B00C23C95 /* Frameworks */,
+				70DE2E622C6D4F5B00C23C95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smashtats;
+			productName = Smashtats;
+			productReference = 70DE2E642C6D4F5B00C23C95 /* Smashtats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70DE2E782C6D4F5E00C23C95 /* SmashtatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DE2E902C6D4F5E00C23C95 /* Build configuration list for PBXNativeTarget "SmashtatsTests" */;
+			buildPhases = (
+				70DE2E752C6D4F5E00C23C95 /* Sources */,
+				70DE2E762C6D4F5E00C23C95 /* Frameworks */,
+				70DE2E772C6D4F5E00C23C95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70DE2E7B2C6D4F5E00C23C95 /* PBXTargetDependency */,
+			);
+			name = SmashtatsTests;
+			productName = SmashtatsTests;
+			productReference = 70DE2E792C6D4F5E00C23C95 /* SmashtatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70DE2E822C6D4F5E00C23C95 /* SmashtatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DE2E932C6D4F5E00C23C95 /* Build configuration list for PBXNativeTarget "SmashtatsUITests" */;
+			buildPhases = (
+				70DE2E7F2C6D4F5E00C23C95 /* Sources */,
+				70DE2E802C6D4F5E00C23C95 /* Frameworks */,
+				70DE2E812C6D4F5E00C23C95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70DE2E852C6D4F5E00C23C95 /* PBXTargetDependency */,
+			);
+			name = SmashtatsUITests;
+			productName = SmashtatsUITests;
+			productReference = 70DE2E832C6D4F5E00C23C95 /* SmashtatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70DE2E5C2C6D4F5B00C23C95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					70DE2E632C6D4F5B00C23C95 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					70DE2E782C6D4F5E00C23C95 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 70DE2E632C6D4F5B00C23C95;
+					};
+					70DE2E822C6D4F5E00C23C95 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 70DE2E632C6D4F5B00C23C95;
+					};
+				};
+			};
+			buildConfigurationList = 70DE2E5F2C6D4F5B00C23C95 /* Build configuration list for PBXProject "Smashtats" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70DE2E5B2C6D4F5B00C23C95;
+			productRefGroup = 70DE2E652C6D4F5B00C23C95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70DE2E632C6D4F5B00C23C95 /* Smashtats */,
+				70DE2E782C6D4F5E00C23C95 /* SmashtatsTests */,
+				70DE2E822C6D4F5E00C23C95 /* SmashtatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70DE2E622C6D4F5B00C23C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DE2E6F2C6D4F5D00C23C95 /* Preview Assets.xcassets in Resources */,
+				70DE2E6C2C6D4F5D00C23C95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DE2E772C6D4F5E00C23C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DE2E812C6D4F5E00C23C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70DE2E602C6D4F5B00C23C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DE2E712C6D4F5D00C23C95 /* Persistence.swift in Sources */,
+				70DE2E6A2C6D4F5B00C23C95 /* ContentView.swift in Sources */,
+				70DE2E742C6D4F5D00C23C95 /* Smashtats.xcdatamodeld in Sources */,
+				70DE2E682C6D4F5B00C23C95 /* SmashtatsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DE2E752C6D4F5E00C23C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DE2E7E2C6D4F5E00C23C95 /* SmashtatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DE2E7F2C6D4F5E00C23C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DE2E882C6D4F5E00C23C95 /* SmashtatsUITests.swift in Sources */,
+				70DE2E8A2C6D4F5E00C23C95 /* SmashtatsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70DE2E7B2C6D4F5E00C23C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70DE2E632C6D4F5B00C23C95 /* Smashtats */;
+			targetProxy = 70DE2E7A2C6D4F5E00C23C95 /* PBXContainerItemProxy */;
+		};
+		70DE2E852C6D4F5E00C23C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70DE2E632C6D4F5B00C23C95 /* Smashtats */;
+			targetProxy = 70DE2E842C6D4F5E00C23C95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		70DE2E8B2C6D4F5E00C23C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70DE2E8C2C6D4F5E00C23C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70DE2E8E2C6D4F5E00C23C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smashtats/Preview Content\"";
+				DEVELOPMENT_TEAM = V5QJK494W7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = danielchung.Smashtats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70DE2E8F2C6D4F5E00C23C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smashtats/Preview Content\"";
+				DEVELOPMENT_TEAM = V5QJK494W7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = danielchung.Smashtats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70DE2E912C6D4F5E00C23C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5QJK494W7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = danielchung.SmashtatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smashtats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smashtats";
+			};
+			name = Debug;
+		};
+		70DE2E922C6D4F5E00C23C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5QJK494W7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = danielchung.SmashtatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smashtats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smashtats";
+			};
+			name = Release;
+		};
+		70DE2E942C6D4F5E00C23C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5QJK494W7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = danielchung.SmashtatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smashtats;
+			};
+			name = Debug;
+		};
+		70DE2E952C6D4F5E00C23C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5QJK494W7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = danielchung.SmashtatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smashtats;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70DE2E5F2C6D4F5B00C23C95 /* Build configuration list for PBXProject "Smashtats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DE2E8B2C6D4F5E00C23C95 /* Debug */,
+				70DE2E8C2C6D4F5E00C23C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DE2E8D2C6D4F5E00C23C95 /* Build configuration list for PBXNativeTarget "Smashtats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DE2E8E2C6D4F5E00C23C95 /* Debug */,
+				70DE2E8F2C6D4F5E00C23C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DE2E902C6D4F5E00C23C95 /* Build configuration list for PBXNativeTarget "SmashtatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DE2E912C6D4F5E00C23C95 /* Debug */,
+				70DE2E922C6D4F5E00C23C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DE2E932C6D4F5E00C23C95 /* Build configuration list for PBXNativeTarget "SmashtatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DE2E942C6D4F5E00C23C95 /* Debug */,
+				70DE2E952C6D4F5E00C23C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		70DE2E722C6D4F5D00C23C95 /* Smashtats.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				70DE2E732C6D4F5D00C23C95 /* Smashtats.xcdatamodel */,
+			);
+			currentVersion = 70DE2E732C6D4F5D00C23C95 /* Smashtats.xcdatamodel */;
+			path = Smashtats.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 70DE2E5C2C6D4F5B00C23C95 /* Project object */;
+}
