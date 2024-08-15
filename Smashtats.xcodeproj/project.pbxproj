@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7037C0A52C6EAF0900A717A0 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7037C0A42C6EAF0900A717A0 /* Game.swift */; };
+		7037C0AA2C6EB21E00A717A0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7037C0A82C6EB21E00A717A0 /* Player.swift */; };
 		70DE2E682C6D4F5B00C23C95 /* SmashtatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DE2E672C6D4F5B00C23C95 /* SmashtatsApp.swift */; };
 		70DE2E6A2C6D4F5B00C23C95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DE2E692C6D4F5B00C23C95 /* ContentView.swift */; };
 		70DE2E6C2C6D4F5D00C23C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DE2E6B2C6D4F5D00C23C95 /* Assets.xcassets */; };
@@ -16,6 +18,7 @@
 		70DE2E7E2C6D4F5E00C23C95 /* SmashtatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DE2E7D2C6D4F5E00C23C95 /* SmashtatsTests.swift */; };
 		70DE2E882C6D4F5E00C23C95 /* SmashtatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DE2E872C6D4F5E00C23C95 /* SmashtatsUITests.swift */; };
 		70DE2E8A2C6D4F5E00C23C95 /* SmashtatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DE2E892C6D4F5E00C23C95 /* SmashtatsUITestsLaunchTests.swift */; };
+		70DE2E9C2C6D5F6800C23C95 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 70DE2E962C6D5F6800C23C95 /* Contents.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7037C0A42C6EAF0900A717A0 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		7037C0A82C6EB21E00A717A0 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		70DE2E642C6D4F5B00C23C95 /* Smashtats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smashtats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DE2E672C6D4F5B00C23C95 /* SmashtatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashtatsApp.swift; sourceTree = "<group>"; };
 		70DE2E692C6D4F5B00C23C95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +53,7 @@
 		70DE2E832C6D4F5E00C23C95 /* SmashtatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashtatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DE2E872C6D4F5E00C23C95 /* SmashtatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashtatsUITests.swift; sourceTree = "<group>"; };
 		70DE2E892C6D4F5E00C23C95 /* SmashtatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashtatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		70DE2E962C6D5F6800C23C95 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Contents.json; path = Assets.xcassets/Contents.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				70DE2E672C6D4F5B00C23C95 /* SmashtatsApp.swift */,
+				7037C0A82C6EB21E00A717A0 /* Player.swift */,
+				7037C0A42C6EAF0900A717A0 /* Game.swift */,
 				70DE2E692C6D4F5B00C23C95 /* ContentView.swift */,
 				70DE2E6B2C6D4F5D00C23C95 /* Assets.xcassets */,
+				70DE2E962C6D5F6800C23C95 /* Contents.json */,
 				70DE2E702C6D4F5D00C23C95 /* Persistence.swift */,
 				70DE2E722C6D4F5D00C23C95 /* Smashtats.xcdatamodeld */,
 				70DE2E6D2C6D4F5D00C23C95 /* Preview Content */,
@@ -239,6 +248,7 @@
 			files = (
 				70DE2E6F2C6D4F5D00C23C95 /* Preview Assets.xcassets in Resources */,
 				70DE2E6C2C6D4F5D00C23C95 /* Assets.xcassets in Resources */,
+				70DE2E9C2C6D5F6800C23C95 /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				70DE2E712C6D4F5D00C23C95 /* Persistence.swift in Sources */,
+				7037C0A52C6EAF0900A717A0 /* Game.swift in Sources */,
 				70DE2E6A2C6D4F5B00C23C95 /* ContentView.swift in Sources */,
+				7037C0AA2C6EB21E00A717A0 /* Player.swift in Sources */,
 				70DE2E742C6D4F5D00C23C95 /* Smashtats.xcdatamodeld in Sources */,
 				70DE2E682C6D4F5B00C23C95 /* SmashtatsApp.swift in Sources */,
 			);
